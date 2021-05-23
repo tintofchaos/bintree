@@ -7,6 +7,6 @@ public class Main {
         BSTNode left = new BSTNode(6);
         root.right = right;
         root.left = left;
-        System.out.println(Tree.Search(root,5).right.key);
+        System.out.println(Tree.search(root,5).right.key);
     }
 }
